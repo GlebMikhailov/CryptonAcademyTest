@@ -1,4 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
+require("@nomiclabs/hardhat-ganache");
 
 // This is a sample Hardhat task. To learn how to create your own go to
 // https://hardhat.org/guides/create-task.html
@@ -13,18 +14,17 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
 
-/**
- * @type import('hardhat/config').HardhatUserConfig
- */
+
+let host = "127.0.0.1"
+let port = 7545
 module.exports = {
-    solidity: "0.8.4"//,
-    // "networks": {
-    //     "development": {
-    //         host: "127.0.0.1",
-    //         port: 7545,
-    //         // in docs - page #40
-    //         // networkId: "*"
-    //         network_id: "5777"
-    //     }
-    // }
+    solidity: "0.8.4",
+    networks: {
+        development: {
+            host: host,
+            port: port,
+            url: "https://" + host + ":" + port,
+            network_id: "5777"
+        }
+    }
 };
