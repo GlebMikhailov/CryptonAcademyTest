@@ -24,3 +24,6 @@ npx hardhat run --network <your-network> scripts/deploy.js
 
 
  <img src = "https://my.vcv.ru/storage/company-file/586d7126ba7e4610e36f9abf3170eef4/12310/586d7126ba7e4610e36f9abf3170eef4.jpeg" alt="diagram">
+ 
+ 
+ # Active branch is release
