@@ -1,28 +1,30 @@
-let secret = require("./secret")
-
-require("@nomiclabs/hardhat-etherscan");
-require("@nomiclabs/hardhat-waffle");
-require("hardhat-tracer");
-require('@nomiclabs/hardhat-ethers');
-
-
-const { API_URL, PRIVATE_KEY, ETHERSCAN_KEY} = process.env;
-
-
+/**
+ * @type import('hardhat/config').HardhatUserConfig
+ */
+require('.env').config();
+require("@nomiclabs/hardhat-ethers");
 module.exports = {
   solidity: "0.8.13",
-  networks: {
-
-    rinkeby: {
-      url: "https://eth-rinkeby.alchemyapi.io/v2/8z0tKgcsVGTeYDZJkbGSzoeQNfl-Vuas",
-      accounts: [secret.key]
-    },
-    mainnet: {
-      url: "",
-      accounts: [secret.key]
+  settings: {
+    optimizer: {
+      enabled: true,
+      runs: 1000000,
     },
   },
+
+  networks: {
+    testnet: {
+      url: process.env.NODE,
+      accounts: [process.env.PRIVATE_KEY],
+
+    },
+    mainnet: {
+      url: process.env.NODE,
+      accounts: [process.env.PRIVATE_KEY],
+
+    }
+  },
   etherscan: {
-    apiKey: "7UGSWT65SYBDSP593J7CPMKFE8X8WTRGXH"
+    apiKey: process.env.API
   }
 };

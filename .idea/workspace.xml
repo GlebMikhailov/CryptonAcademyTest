@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9a8bca2-a13c-4711-ad57-ac384866ba42" name="Default Changelist" comment="" />
+    <list default="true" id="b9a8bca2-a13c-4711-ad57-ac384866ba42" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secret.json" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="785d4bcc-8ce0-48a9-92b1-fd33a7235202" />
+  </component>
   <component name="ProjectId" id="2Afk1YwSht912xgMB1aI39mksjT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,6 +40,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton\scripts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton" />
       <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton\contracts" />
@@ -36,14 +59,59 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655407812565</updated>
-      <workItem from="1655407813631" duration="1509000" />
+      <workItem from="1655407813631" duration="1799000" />
+      <workItem from="1655414805721" duration="2445000" />
     </task>
+    <task id="LOCAL-00001" summary="without env">
+      <created>1655409430010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655409430010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="without env" />
+    <option name="LAST_COMMIT_MESSAGE" value="without env" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655415051425">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1655415051425" />
+    <state x="556" y="97" key="CommitChangelistDialog2" timestamp="1655409429075">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="556" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1655409429075" />
+    <state x="184" y="86" key="DiffContextDialog" timestamp="1655409438561">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655409438561" />
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1655409446821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1655409446821" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655409540388">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1655409540388" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655415357374">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655415357374" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655409477739">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1655409477739" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1655409375411">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655409375411" />
     <state x="790" y="311" key="svn.repositoryBrowser" timestamp="1655408693926">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
