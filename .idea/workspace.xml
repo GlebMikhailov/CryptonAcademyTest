@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9a8bca2-a13c-4711-ad57-ac384866ba42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hardhat.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/hardhat.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/secret.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,17 +36,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sp_alpha_back-main/sp_alpha_back-main" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton\scripts" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton" />
       <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton\contracts" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton" />
+      <recent name="C:\Users\glebm\WebstormProjects\blockchain\release_crypton\scripts" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,7 +62,11 @@
       <option name="presentableId" value="Default" />
       <updated>1655407812565</updated>
       <workItem from="1655407813631" duration="1799000" />
-      <workItem from="1655414805721" duration="2445000" />
+      <workItem from="1655414805721" duration="2776000" />
+      <workItem from="1655460042370" duration="555000" />
+      <workItem from="1656348755200" duration="781000" />
+      <workItem from="1657273711512" duration="59000" />
+      <workItem from="1657284704767" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="without env">
       <created>1655409430010</created>
@@ -69,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655409430010</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="env inited">
+      <created>1655417723789</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1655417723789</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,29 +90,34 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="without env" />
-    <option name="LAST_COMMIT_MESSAGE" value="without env" />
+    <MESSAGE value="env inited" />
+    <option name="LAST_COMMIT_MESSAGE" value="env inited" />
   </component>
   <component name="WindowStateProjectService">
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655415051425">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="734" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1655415051425" />
-    <state x="556" y="97" key="CommitChangelistDialog2" timestamp="1655409429075">
+    <state x="556" y="97" key="CommitChangelistDialog2" timestamp="1655417721528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="556" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1655409429075" />
+    <state x="556" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1655417721528" />
     <state x="184" y="86" key="DiffContextDialog" timestamp="1655409438561">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="86" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1655409438561" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1657285388509">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1657285388509" />
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose" timestamp="1655409446821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="821" y="432" key="Github.Dialog.Accounts.Choose/0.0.1920.1040@0.0.1920.1040" timestamp="1655409446821" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655409540388">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1655417791870">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1655409540388" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1655417791870" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1655415357374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
